@@ -1,0 +1,203 @@
+/**
+ * @name MiTema
+ * @author ClearVision Team & puckzxz#2080 & Sebac
+ * @version 1.0.0
+ * @description Tema combinado de ClearVision V7 y NotAnotherAnimeTheme
+ */
+
+@import url("https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css");
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+
+:root {
+  /* ======================================================== */
+  /*                 CLEARVISION V7 VARIABLES                 */
+  /* ======================================================== */
+
+  /* ACCENT COLORS */
+  --main-color: #2780e6;
+  --hover-color: #1e63b3;
+  --success-color: #43b581;
+  --danger-color: #982929;
+  /* STATUS COLORS */
+  --online-color: #43b581;
+  --idle-color: #faa61a;
+  --dnd-color: #982929;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+  /* APP BACKGROUND */
+  --background-shading-percent: 100%;
+  --background-image: url(https://zubzerozd.github.io/img/fondo.jpg);
+  --background-position: center;
+  --background-size: cover;
+  --background-attachment: fixed;
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: var(--background-image);
+  --user-popout-position: var(--background-position);
+  --user-popout-size: var(--background-size);
+  --user-popout-attachment: var(--background-attachment);
+  --user-popout-filter: var(--background-filter);
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--background-image);
+  --user-modal-position: var(--background-position);
+  --user-modal-size: var(--background-size);
+  --user-modal-attachment: var(--background-attachment);
+  --user-modal-filter: var(--background-filter);
+  /* HOME ICON */
+  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+  --home-size: cover;
+  /* FONTS */
+  --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --code-font:
+    Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
+  /* CHANNEL COLORS */
+  --channel-normal: var(--interactive-text-default);
+  --channel-muted: var(--interactive-muted);
+  --channel-hover: var(--interactive-text-hover);
+  --channel-selected: var(--interactive-text-active);
+  --channel-selected-bg: var(--main-color);
+  --channel-unread: var(--main-color);
+  --channel-unread-hover: var(--hover-color);
+  /* ACCESSIBILITY */
+  --focus-color: var(--main-color);
+
+  /* ======================================================== */
+  /*                 NOT ANOTHER ANIME THEME                  */
+  /* ======================================================== */
+
+  /* Theme Background */
+  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+  /* Main Theme Color */
+  --main-theme-color: rgb(67, 181, 129);
+  /* Main Theme Transparency */
+  --theme-transparency: rgba(0, 0, 0, 0.8);
+  /* Home Icon Image */
+  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+  --home-icon-image-position: center center;
+  --home-icon-image-zoom: 100%;
+  /* Server Listing Width */
+  --server-listing-width: 126px;
+  /* Font Size */
+  --font-size: 100%;
+  /* Mention colors */
+  --mention-color: rgba(250, 166, 26, 0.05);
+  --mention-sider: rgba(250, 166, 26, 1);
+  --mention-hover-color: rgba(250, 166, 26, 0.08);
+  /* Server category hover color */
+  --category-hover-color: rgb(60, 202, 138);
+  /* Unread server animation ("none" or "rainbow") */
+  --unread-server-animation: rainbow;
+  /* Video / Screen share buttons */
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+  /* Role Title Color */
+  --member-listing-role-color: var(--main-theme-color);
+  /* Small User Popout */
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --small-user-popout-background-image-position: center;
+  /* Big User Popout */
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --big-user-popout-background-image-position: center;
+  /* Code Markup */
+  --code-markup-background-color: rgba(0, 0, 0, 0.6);
+  --code-markup-border: 1px solid transparent;
+  /* Message Box Transparency */
+  --message-box-transparency: rgba(0, 0, 0, 0.6);
+  /* Embed Background Transparency */
+  --embed-background-transparency: rgba(0, 0, 0, 0.6);
+  /* Message Hover Buttons */
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
+  /* Context Menu Transparency */
+  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+  /* Add Server / Discovery Icon */
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: #43b581;
+  /* Channel Limit Number Color */
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
+  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+  /* Scrollbar Colors */
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
+  /* Unread Message Divider */
+  --unread-message-divider-color: #f04747;
+  --unread-message-divider-font-color: #fff;
+  /* New Messages Bar Color */
+  --new-messages-bar-background-color: #7289da;
+  --new-messages-bar-font-color: #fff;
+  /* Emoji Menu */
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+  --emoji-menu-bottom-bar-background-color: black;
+  --emoji-menu-search-bar-background-color: rgba(200, 200, 200, 0.1);
+  /* Message Search */
+  --message-search-menu-background-color: rgba(0, 0, 0, 0.8);
+  --message-search-container-background-color: rgba(0, 0, 0, 0.6);
+  --message-search-result-background-color: rgba(200, 200, 200, 0.05);
+  /* Channel colors */
+  --text-voice-channel-color: rgb(142, 146, 151);
+  --text-voice-channel-hover-color: #dcddde;
+  --text-voice-channel-selected-text-color: #fff;
+  --unread-text-channel-color: #fff;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+  /* Folders */
+  --folder-background-color: #2f3136;
+  --expanded-folder-background-color: transparent;
+  /* Reactions */
+  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* THEME SPECIFIC SHADING (From ClearVision) */
+/* LIGHT THEME */
+:is(.theme-light, .theme-dark .theme-light) {
+  --background-shading: rgba(252, 252, 252, 0.3);
+  --card-shading: rgba(252, 252, 252, 0.3);
+  --popout-shading: rgba(252, 252, 252, 0.7);
+  --modal-shading: rgba(252, 252, 252, 0.5);
+  --input-shading: rgba(0, 0, 0, 0.3);
+  --normal-text: #36363c;
+  --muted-text: #75757e;
+}
+
+/* ASH THEME */
+:is(.theme-dark, .theme-light .theme-dark) {
+  --background-shading: rgba(0, 0, 0, 0.4);
+  --card-shading: rgba(0, 0, 0, 0.2);
+  --popout-shading: rgba(0, 0, 0, 0.6);
+  --modal-shading: rgba(0, 0, 0, 0.4);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #d8d8db;
+  --muted-text: #aeaeb4;
+}
+
+/* DARK THEME */
+:is(.theme-darker, .theme-light .theme-darker) {
+  --background-shading: rgba(0, 0, 0, 0.6);
+  --card-shading: rgba(0, 0, 0, 0.3);
+  --popout-shading: rgba(0, 0, 0, 0.7);
+  --modal-shading: rgba(0, 0, 0, 0.5);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #fbfbfb;
+  --muted-text: #94949c;
+}
+
+/* ONYX THEME */
+:is(.theme-midnight, .theme-light .theme-midnight) {
+  --background-shading: rgba(0, 0, 0, 0.8);
+  --card-shading: rgba(0, 0, 0, 0.4);
+  --popout-shading: rgba(0, 0, 0, 0.8);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #dcdcde;
+  --muted-text: #86868e;
+}
+
+/* ADD ADDITIONAL CSS BELOW HERE */
