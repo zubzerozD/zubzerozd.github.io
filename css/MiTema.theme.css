@@ -11,10 +11,9 @@
 @import url("https://zubzerozd.github.io/css/main.css");
 
 :root {
-
   /* ACCENT COLORS */
-  --main-color: #2780e6;
-  --hover-color: #1e63b3;
+  --main-color: #7b2cbf;
+  --hover-color: #5a189a;
   --success-color: #43b581;
   --danger-color: #982929;
   /* STATUS COLORS */
@@ -66,7 +65,7 @@
   /* Theme Background */
   --theme-background-image: url(https://zubzerozd.github.io/img/theme-bg.jpg);
   /* Main Theme Color */
-  --main-theme-color: rgb(67, 181, 129);
+  --main-theme-color: rgb(123, 44, 191);
   /* Main Theme Transparency */
   --theme-transparency: rgba(0, 0, 0, 0.8);
   /* Home Icon Image */
@@ -82,7 +81,7 @@
   --mention-sider: rgba(250, 166, 26, 1);
   --mention-hover-color: rgba(250, 166, 26, 0.08);
   /* Server category hover color */
-  --category-hover-color: rgb(60, 202, 138);
+  --category-hover-color: rgb(157, 78, 221);
   /* Unread server animation ("none" or "rainbow") */
   --unread-server-animation: rainbow;
   /* Video / Screen share buttons */
@@ -113,7 +112,7 @@
   --context-menu-transparency: rgba(15, 15, 15, 0.8);
   /* Add Server / Discovery Icon */
   --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
-  --add-discover-icon-color: #43b581;
+  --add-discover-icon-color: #9d4edd;
   /* Channel Limit Number Color */
   --channel-limit-count-color: var(--channels-default);
   --channel-limit-background-left: rgba(200, 200, 200, 0.1);
