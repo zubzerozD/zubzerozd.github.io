@@ -18,7 +18,7 @@
   }
 }
 .info__2debe::after {
-  content: "ClearVision" " " "7.0.1";
+  content: "zubzerozDCustom" " " "1.0.0";
   color: var(--text-muted);
   font-size: 12px;
   line-height: 1.3333333333;
@@ -2813,8 +2813,8 @@ code {
   color: var(--hsl-main-color);
 }
 .container__06283 {
-  -webkit-mask-image: url(https://clearvision.github.io/icons/pill.svg);
-  mask-image: url(https://clearvision.github.io/icons/pill.svg);
+  -webkit-mask-image: url(https://zubzerozd.github.io/img/pill.svg);
+  mask-image: url(https://zubzerozd.github.io/img/pill.svg);
   background: var(--hsl-main-color) !important;
 }
 :is(.theme-light, .theme-dark) .progress__06283 {
@@ -3539,7 +3539,7 @@ code {
   --user-modal-size: var(--background-size);
   --user-modal-attachment: var(--background-attachment);
   --user-modal-filter: var(--background-filter);
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+  --home-icon: url(https://zubzerozd.github.io/img/discord.svg);
   --home-size: cover;
   --main-font:
     "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;

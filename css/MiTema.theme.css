@@ -5,9 +5,9 @@
  * @description Tema combinado de ClearVision V7 y NotAnotherAnimeTheme
  */
 
-@import url("https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css");
-@import url("https://clearvision.github.io/ClearVision-v7/main.css");
-@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+@import url("https://zubzerozd.github.io/css/owo.v3.css");
+@import url("https://zubzerozd.github.io/css/betterdiscord.css");
+@import url("https://zubzerozd.github.io/css/main.css");
 
 :root {
   /* ======================================================== */
@@ -45,7 +45,7 @@
   --user-modal-attachment: var(--background-attachment);
   --user-modal-filter: var(--background-filter);
   /* HOME ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+  --home-icon: url(https://zubzerozd.github.io/img/discord.svg);
   --home-size: cover;
   /* FONTS */
   --main-font: "gg sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -67,13 +67,13 @@
   /* ======================================================== */
 
   /* Theme Background */
-  --theme-background-image: url(https://i.imgur.com/j1Z6HVc.jpg);
+  --theme-background-image: url(https://zubzerozd.github.io/img/theme-bg.jpg);
   /* Main Theme Color */
   --main-theme-color: rgb(67, 181, 129);
   /* Main Theme Transparency */
   --theme-transparency: rgba(0, 0, 0, 0.8);
   /* Home Icon Image */
-  --home-icon-image: url(https://i.imgur.com/63g6Em8.jpg);
+  --home-icon-image: url(https://zubzerozd.github.io/img/home-icon.jpg);
   --home-icon-image-position: center center;
   --home-icon-image-zoom: 100%;
   /* Server Listing Width */
