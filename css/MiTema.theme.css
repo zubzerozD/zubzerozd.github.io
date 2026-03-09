@@ -10,9 +10,6 @@
 @import url("https://zubzerozd.github.io/css/main.css");
 
 :root {
-  /* ======================================================== */
-  /*                 CLEARVISION V7 VARIABLES                 */
-  /* ======================================================== */
 
   /* ACCENT COLORS */
   --main-color: #2780e6;
@@ -63,7 +60,6 @@
   --focus-color: var(--main-color);
 
   /* ======================================================== */
-  /*                 NOT ANOTHER ANIME THEME                  */
   /* ======================================================== */
 
   /* Theme Background */
