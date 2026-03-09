@@ -36,7 +36,7 @@
   filter: drop-shadow(0 0 5px var(--hsl-main-color));
 }
 :is(.theme-dark, .theme-light):not(.platform-osx) .leading_c38106::after {
-  content: "7.0.1";
+  content: "1.0.0";
   position: static;
   margin-top: -5px;
   margin-left: 5px;
